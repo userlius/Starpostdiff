@@ -1,5 +1,5 @@
 <deployment-project plugin="plugin.ezdeploy" plugin-version="1.0">
-  <configuration file="C:\Users\zll\Desktop\app\StarPostdiff.prj" location="C:\Users\zll\Desktop\app" name="StarPostdiff" target="target.ezdeploy.standalone" target-name="Application Compiler">
+  <configuration build-checksum="2501470308" file="C:\Users\zll\Desktop\Starpostdiff\StarPostdiff.prj" location="C:\Users\zll\Desktop\Starpostdiff" name="StarPostdiff" preferred-package-location="C:\Users\zll\Desktop\Starpostdiff\StarPostdiff\for_redistribution" preferred-package-type="package.type.exe" target="target.ezdeploy.standalone" target-name="Application Compiler">
     <param.appname>StarPostdiff</param.appname>
     <param.icon>${PROJECT_ROOT}\StarPostdiff_resources\icon.ico</param.icon>
     <param.icons>
@@ -12,10 +12,7 @@
     <param.authnamewatermark>Hui chaoliu</param.authnamewatermark>
     <param.email>1376542071@qq.com</param.email>
     <param.company />
-    <param.summary>支持RTCM格式的RTK事后解算与分析软件
-complier from 2022b
-若程序未配有本地运行环境请安装相应运行环境，Runtime MCR 9.13
-https://github.com/userlius/StarPostdiff</param.summary>
+    <param.summary>支持RTCM格式的RTK事后解算与分析软件</param.summary>
     <param.description />
     <param.screenshot>${PROJECT_ROOT}\1.icon\Post Diff.png</param.screenshot>
     <param.guid />
@@ -32,13 +29,13 @@ https://github.com/userlius/StarPostdiff</param.install.notes>
     <param.intermediate>${PROJECT_ROOT}\StarPostdiff\for_testing</param.intermediate>
     <param.files.only>${PROJECT_ROOT}\StarPostdiff\for_redistribution_files_only</param.files.only>
     <param.output>${PROJECT_ROOT}\StarPostdiff\for_redistribution</param.output>
-    <param.logdir>${PROJECT_ROOT}\StarPostdiff</param.logdir>
+    <param.logdir>${PROJECT_ROOT}</param.logdir>
     <param.enable.clean.build>false</param.enable.clean.build>
     <param.user.defined.mcr.options />
     <param.target.type>subtarget.standalone</param.target.type>
     <param.support.packages />
-    <param.web.mcr>false</param.web.mcr>
-    <param.package.mcr>true</param.package.mcr>
+    <param.web.mcr>true</param.web.mcr>
+    <param.package.mcr>false</param.package.mcr>
     <param.no.mcr>false</param.no.mcr>
     <param.web.mcr.name>MyAppInstaller_web</param.web.mcr.name>
     <param.package.mcr.name>MyAppInstaller_mcr</param.package.mcr.name>
@@ -66,11 +63,12 @@ https://github.com/userlius/StarPostdiff</param.install.notes>
       <param.intermediate />
       <param.files.only />
       <param.output />
-      <param.logdir />
       <param.enable.clean.build />
       <param.user.defined.mcr.options />
       <param.target.type />
       <param.support.packages />
+      <param.web.mcr />
+      <param.package.mcr />
       <param.no.mcr />
       <param.web.mcr.name />
       <param.package.mcr.name />
@@ -82,7 +80,7 @@ https://github.com/userlius/StarPostdiff</param.install.notes>
       <param.example />
     </unset>
     <fileset.main>
-      <file>${PROJECT_ROOT}\app1.mlapp</file>
+      <file>${PROJECT_ROOT}\StarPostdiff.mlapp</file>
     </fileset.main>
     <fileset.resources />
     <fileset.package>
@@ -99,12 +97,14 @@ https://github.com/userlius/StarPostdiff</param.install.notes>
       <file>${PROJECT_ROOT}\1.icon\卫星 (1).png</file>
       <file>${PROJECT_ROOT}\1.icon\卫星 (2).png</file>
       <file>${PROJECT_ROOT}\1.icon\卫星.png</file>
+      <file>${PROJECT_ROOT}\1.icon\文本输出.png</file>
+      <file>${PROJECT_ROOT}\1.icon\自动识别.png</file>
       <file>${PROJECT_ROOT}\1.icon\转换.png</file>
     </fileset.depfun>
     <build-deliverables>
-      <file location="${PROJECT_ROOT}\StarPostdiff\for_testing" name="StarPostdiff.exe" optional="false">C:\Users\zll\Desktop\app\StarPostdiff\for_testing\StarPostdiff.exe</file>
-      <file location="${PROJECT_ROOT}\StarPostdiff\for_testing" name="splash.png" optional="false">C:\Users\zll\Desktop\app\StarPostdiff\for_testing\splash.png</file>
-      <file location="${PROJECT_ROOT}\StarPostdiff\for_testing" name="readme.txt" optional="true">C:\Users\zll\Desktop\app\StarPostdiff\for_testing\readme.txt</file>
+      <file location="${PROJECT_ROOT}\StarPostdiff\for_testing" name="StarPostdiff.exe" optional="false">C:\Users\zll\Desktop\Starpostdiff\StarPostdiff\for_testing\StarPostdiff.exe</file>
+      <file location="${PROJECT_ROOT}\StarPostdiff\for_testing" name="readme.txt" optional="true">C:\Users\zll\Desktop\Starpostdiff\StarPostdiff\for_testing\readme.txt</file>
+      <file location="${PROJECT_ROOT}\StarPostdiff\for_testing" name="splash.png" optional="false">C:\Users\zll\Desktop\Starpostdiff\StarPostdiff\for_testing\splash.png</file>
     </build-deliverables>
     <workflow />
     <matlab>
