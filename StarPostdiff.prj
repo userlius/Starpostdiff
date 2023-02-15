@@ -82,7 +82,12 @@ https://github.com/userlius/StarPostdiff</param.install.notes>
     <fileset.main>
       <file>${PROJECT_ROOT}\StarPostdiff.mlapp</file>
     </fileset.main>
-    <fileset.resources />
+    <fileset.resources>
+      <file>${PROJECT_ROOT}\1.icon\完成.png</file>
+      <file>${PROJECT_ROOT}\1.icon\提示.png</file>
+      <file>${PROJECT_ROOT}\1.icon\警告.png</file>
+      <file>${PROJECT_ROOT}\1.icon\错误.png</file>
+    </fileset.resources>
     <fileset.package>
       <file>${PROJECT_ROOT}\1.icon</file>
       <file>${PROJECT_ROOT}\2.exe</file>
